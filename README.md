@@ -36,7 +36,7 @@ This Android application helps users track and log their pregnancy vitals such a
    - The **VitalCard** shows blood pressure, weight, baby kicks, and the recorded timestamp.
 
 4. **Notification Reminders**  
-   - The app uses WorkManager to schedule periodic notifications (e.g., every hour) to remind users to log their vitals.
+   - The app uses WorkManager to schedule periodic notifications (e.g., every 5 hour) to remind users to log their vitals.
    - When notifications are enabled, the app icon reflects this status, and users receive timely reminders.
 
 ---
