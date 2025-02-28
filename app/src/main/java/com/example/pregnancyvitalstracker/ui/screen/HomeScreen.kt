@@ -107,10 +107,9 @@ fun HomeScreen(
         LazyColumn(
             modifier = Modifier
                 .padding(paddingValues)
-                .padding(8.dp),
-            reverseLayout = true
+                .padding(8.dp)
         ) {
-            items(vitalList) { vital ->
+            items(vitalList.sortedByDescending { it.currTime }) { vital ->
                 VitalCard(
                     pulseRate = vital.pulseRate,
                     sysBp = vital.SysBp,

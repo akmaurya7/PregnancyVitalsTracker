@@ -18,7 +18,7 @@ class NotificationViewModel @Inject constructor(
 
         val periodicWorker = PeriodicWorkRequest.Builder(
             NotificationWorker::class.java,
-            16, TimeUnit.MINUTES)
+            5, TimeUnit.HOURS)
             .build()
 
         workManager.enqueueUniquePeriodicWork(
