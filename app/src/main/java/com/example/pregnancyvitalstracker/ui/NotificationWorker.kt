@@ -52,8 +52,8 @@ class NotificationWorker(
     private fun createNotificationChannel() {
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            val name = "Custom Notification"
-            val descriptionText = "This is notification description brother"
+            val name = "Time to log your vitals!"
+            val descriptionText = "Stay on top of your health. Please update your vitals now!"
             val importance = NotificationManager.IMPORTANCE_DEFAULT
             val channel = NotificationChannel(CHANNEL_ID, name, importance).apply {
                 description = descriptionText
