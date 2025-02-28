@@ -14,7 +14,7 @@ This Android application helps users track and log their pregnancy vitals such a
 ## Getting Started
 
 1. **Clone or Download** this repository.  
-2. **Open** the project in **Android Studio** (preferably the latest version).  
+2. **Open** the project in **Android Studio** (preferably the latest version(i build this project in the android studio Ladybug feature Drop 2024.2.2 patch 1)).  
 3. **Sync** the project to download dependencies (`Tools > Sync Project with Gradle Files`).  
 4. **Run** the project on an emulator or physical device.
 
